@@ -21,7 +21,7 @@
 }
 
 body{
-    min-height: 400vh;
+    min-height: 100vh;
 }
 
 .navigation,
@@ -29,12 +29,6 @@ body{
 .menu{
     display: flex;
     align-items: center;
-}
-
-.navigation{
-    max-width: 1200px;
-    margin: 0 auto;
-    justify-content: space-between;
 }
 
 .header{
@@ -51,12 +45,19 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    padding: 1rem 0;
+    padding: 0.7rem 0;
     background-color: #fff;
     -webkit-box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.1);
     box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.1);
     z-index: 999;
+}
+
+.navigation{
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 0 1.5rem;
 }
 
 .logo-img{
@@ -100,3 +101,4 @@ body{
 #close-menu-btn{
     display: none;
 }
+
